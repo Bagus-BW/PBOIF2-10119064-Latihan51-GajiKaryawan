@@ -38,9 +38,9 @@ public class PBOIF210119064Latihan51GajiKaryawan {
         keyboard.nextLine();
         System.out.print("Masukkan Nama     : ");
         manager.setNama(keyboard.nextLine());
-        System.out.print("Masukkan Golongan : ");
+        System.out.print("Masukkan Golongan (1/2/3) : ");
         manager.setGolongan(keyboard.nextInt());
-        System.out.print("Masukkan Jabatan  : ");
+        System.out.print("Masukkan Jabatan (Manager/Kabag) : ");
         manager.setJabatan(keyboard.next());
         System.out.print("Masukkan Jumlah Kehadiran : ");
         manager.setKehadiran(keyboard.nextInt());
